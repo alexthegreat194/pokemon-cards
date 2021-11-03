@@ -1,43 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokemon Cards</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">  
-</head>
-<body>
-    
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Pokemon Cards</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pokemon Cards</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">  
+    </head>
+    <body>
+        
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Pokemon Cards</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/card_raritites.html">Rarities</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/news_letter.html">News</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Pokemon banner/carousel -->
+        <div id="carouselExampleInterval" class="carousel slide bg-light h-80" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="static/carousel/cari1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="static/carousel/cari2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="static/carousel/cari3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="static/carousel/cari4.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/card_raritites.html">Rarities</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/news_letter.html">News</a>
-                    </li>
-                </ul>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- What are pokemon -->
+        <div class="px-4 py-5 my-5 text-center bg-light">
+            <div class="container">
+                <h1 class="display-5 fw-bold">What are Pokemon</h1>
+                <hr class="my-2">
+                <p class="lead mb-4">
+                    Pokémon is a Japanese franchise that has been around for more than 20 years (2021 will mark its 25th anniversary!). 
+                    Short for “pocket monsters,” Pokémon exists as a TV show, a trading card game, video games and toys. 
+                    The Pokémon themselves are creatures that live in the wild or with their owner (as in your kid), referred to as their trainer. 
+                    The trainer’s goal is to “catch them all” and, by all, we mean all 800+ of them.
+                </p>
             </div>
         </div>
-    </nav>
 
-    <!-- Pokemon banner/carousel -->
-    <!-- What are pokemon -->
-    <!-- what are pokemon cards -->
-    <!-- pokemon card diagram -->
+        <!-- what are pokemon cards -->
+        <div class="px-4 py-5 my-5 text-center bg-light">
+            <div class="container">
+                <h1 class="display-5 fw-bold">What are Pokemon</h1>
+                <hr class="my-2">
+                <p class="lead mb-4">
+                    Younger kids (say, JK to grade one) tend to just collect and trade the cards. 
+                    As they learn to read, they may also want to play the trading card game. 
+                    The point of collecting the cards is to build a powerful deck of 60 that will help you win battles against other trainers. 
+                    But your kid might just be interested in collecting the cards he likes best or deems most valuable. 
+                    Each pack of cards is different, so if your kid doesn’t have any cards (or just a couple), you may want to get him started with a theme deck: a pack of 60 cards that comes in a small cardboard box or metal tin. 
+                    Theme decks also come with a coin and cardboard markers that can be used in gameplay when deciding which player goes first or when counting damage, but you can also use die instead. 
+                    Cards also come in booster packs of 10, in tins or blister packs.
+                </p>
+            </div>
+        </div>
+        
+        <!-- types of Cards -->
+        <h1 class="display-5 fw-bold text-center"></h1>
+        <div class="px-4 py-5 my-5 text-center bg-light">
+            <div class="container">
+                <h1 class="display-5 fw-bold">Types of cards</h1>
+                <hr class="my-2">
+                <div class="lead mb-4">
+                    <div class="container d-flex justify-content-around bg-light">
+                        <div class="card col m-3 p-3" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Character cards</h5>
+                                <p class="card-text">
+                                    Each Pokemon has a type (there are 11 in the trading card game), such as Fire, Water, Psychic, Metal or Dragon. 
+                                    Each Pokémon card will also indicate how “evolved” the character is—whether it’s in its basic form, Stage One form or Stage Two form—in the upper left-hand corner. 
+                                </p>
+                            </div>
+                        </div>
+                
+                        <div class="card col m-3 p-3" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Energy cards</h5>
+                                <p class="card-text">
+                                    These cards are needed to power your Pokémon throughout the game, and you’ll always find basic Energy cards in any pack you buy. 
+                                    There are also Special Energy cards that give a different kind of boost, depending on your type of Pokémon.
+                                </p>
+                            </div>
+                        </div>
+                
+                        <div class="card col m-3 p-3" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Trainer cards</h5>
+                                <p class="card-text">
+                                    These are cards you use for the items, supporters and stadiums you can use during a battle. 
+                                    Any special rules on these cards are indicated at the bottom.
+                                </p> 
+                            </div>
+                        </div>
+                    </div>
+                    <p>If you want to know more about cards go <a href="/card_raritites.html">here</a></p>
+                </div>
+            </div>
+        </div>
+        
 
-    <!-- footer with contact form -->
-
-</body>
+        <!-- footer with contact form -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
 </html>
